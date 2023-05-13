@@ -1,0 +1,183 @@
+body{
+    background-color: green;
+}
+
+#menu{
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+#title {
+    horiz-align: center;
+    margin-left: 50px;
+}
+
+.bigList{
+    text-align: center;
+    vertical-align: middle;
+    width: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.buttonList{
+    display: inline;
+}
+
+.buttonList a {
+    font: 150% Montserrat, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 4.5% 5%;
+}
+
+.buttonList a:hover {
+    background-color: gray;
+    cursor: pointer;
+    border-radius: 80px;
+}
+
+#showLoginDiv {
+    font-family: Montserrat, sans-serif;
+    width: 10%;
+    display: none;
+    float: right;
+}
+
+#showLoginText {
+    color: white;
+}
+
+#homeTextDiv{
+    text-align: center;
+    font: 200% Montserrat, sans-serif;
+    color: white;
+    padding-top: 140px;
+}
+
+#restartGameButton, #leaveGameButton {
+    padding: 10px;
+    font: 15px Montserrat, sans-serif, bold;
+    margin: auto;
+    align-items: center;
+    display: flex;
+}
+
+#restartGameDiv, #leaveGameDiv{
+    z-index: 10;
+    position: relative;
+    display: none;
+    padding-top: 25px;
+}
+
+#loginDiv {
+    padding-top: 100px;
+    margin-left: 50px;
+}
+
+#loginButton {
+    font: 20px Montserrat, sans-serif;
+    margin-top: 20px;
+    margin-left: 80px;
+    display: flex;
+    align-items: center;
+}
+
+#wrongPasswordText, #wrongBoardSizeText {
+    font-size: 100%;
+    margin-top: 10px;
+    margin-left: 50px;
+    display: none;
+}
+
+#boardSizeInput {
+    border-radius: 50px;
+    width: 50px;
+}
+
+#rulesDiv{
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    color: white;
+    padding-top: 80px;
+    display: block;
+}
+
+.boardDiv{
+    text-align: center;
+    margin: auto;
+    padding-top: 35px;
+}
+
+.boardDiv img{
+    width: 80px;
+    height: 80px;
+}
+
+.cellDiv, .pieceDiv{
+    width: 90px;
+    display: inline-block;
+}
+
+#messageH1{
+    text-align: center;
+    padding-bottom: 5px;
+    font-family: Montserrat, sans-serif;
+    color: white;
+}
+
+#gameFormDiv{
+    position: absolute;
+    font: 20px Montserrat, sans-serif;
+    color: white;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 350px;
+}
+
+#startButton{
+    padding: 5px;
+    font: 20px Montserrat, sans-serif;
+    margin: auto;
+    align-items: center;
+    display: flex;
+}
+
+#userInput, #passwordInput{
+    float: left;
+    width: 95px;
+    height: 25px;
+}
+
+#passwordInputDiv{
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.pieceHovered {
+    background-color: white;
+    cursor: pointer;
+    border-radius: 80px;
+}
+
+.pieceDeleted{
+    visibility: hidden;
+}
+
+.rankings{
+    text-align:center;
+    font-family: Montserrat, sans-serif;
+    color: white;
+    margin-top: 120px;
+    padding-left: 180px;
+}
+
+td,th {
+    border: 2px solid white;
+    padding: 8px;
+}
